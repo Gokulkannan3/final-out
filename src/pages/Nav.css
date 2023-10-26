@@ -1,0 +1,27 @@
+@media screen and (min-device-width:1080px) and (max-device-width:1920px){
+    .ic{
+        height:50px;
+        transform:translate(0,-100px);
+    }
+    .u{
+        margin-top:-15px !important;
+    }
+    .s{
+        margin-right:150px !important;
+    }
+    .sim{
+        margin-right:30
+        0px !important;
+    }
+}
+@media screen and (min-device-width:1080px) and (max-device-width:1370px)
+{
+    .ic{
+        height:50px !important;
+        margin-top:8px;
+    }
+    .u{
+        font-size:20px;
+        transform:translate(-155px,-67px);
+    }
+}

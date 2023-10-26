@@ -1,0 +1,64 @@
+/* ProgressBar.css */
+
+.progress-bar {
+    max-width: 200px; /* Set the width of the progress bar */
+    background-color: yellow;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px;
+  }
+  
+  .progress-labels {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .progress-label {
+    color: #351c15;
+    background-color:#eab308;
+    font-weight:bold;
+    font-size:30px;
+  }
+  .progress-label.active {
+    color:#351c15;
+  }
+  
+  .progress-bar.Dispatched {
+    background-color: red;
+    height: 25%;
+  }
+  
+  .progress-bar.ReachedHub1 {
+    background-color: yellow;
+    height: 50%;
+  }
+  
+  .progress-bar.ReachedHub2 {
+    background-color: orange;
+    height: 75%;
+  }
+  
+  .progress-bar.OutforDelivery {
+    background-color: green;
+    height: 100%;
+  }
+  .boxing{
+    margin-left: 1000px;
+    margin-bottom: 2000px;
+    margin-top: -250px;
+  }
+  @media screen and (min-device-width:1080px) and (max-device-width:1370px){
+    .pro{
+      max-width:800px;
+      margin-left:13%;
+      margin-top:100px;
+    }
+    .track{
+      width:300px;
+      font-size:20px !important;
+      display:flex;
+      justify-content:center;
+      transform:translate(-145px,-180px) !important;
+    }
+  }

@@ -1,0 +1,28 @@
+@import url("~leaflet/dist/leaflet.css");
+.leaflet-container {
+  width: 2500px;
+  margin-left:350px;
+  height: 1000px;
+  border:2px solid black;
+}
+.App{
+  margin-left:100px;
+  margin-top:90px
+}
+
+@media screen and (min-device-width:1080px) and (max-device-width:1920px){
+  .leaflet-container{
+    width:1500px !important;
+    height:700px !important;
+    margin-top:-20px !important;
+    margin-left: 100px !important;
+    border:2px solid black;
+  }
+}
+@media screen and (min-device-width:1080px) and (max-device-width:1370px){
+  .leaflet-container{
+    width:1050px !important;
+    height:550px !important;
+    margin-left:50px !important;
+  }
+}

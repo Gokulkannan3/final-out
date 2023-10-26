@@ -1,0 +1,32 @@
+.tbody{
+    background-color:#351c15;
+}
+.btn{
+    background-color:#351c15;
+    color:white;
+}
+.tab{
+    width:3500px;
+}
+body{
+    width:100%;
+    overflow-x:hidden;
+}
+@media (min-device-width:1080px) and (max-device-width:1920px){
+    .tab{
+        width:2000px !important;
+        text-size:50px !important;
+    }
+    .arrow{
+        transform:translate(0,-600px);
+    }
+}
+@media (min-device-width:1080px) and (max-device-width:1370px){
+    .tab{
+        width:100px;
+        text-size:25px;
+        display:flex;
+        align-items:center;
+        transform:translate(-325px,0);
+    }
+}
